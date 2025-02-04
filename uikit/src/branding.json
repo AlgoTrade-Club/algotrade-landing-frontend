@@ -1,18 +1,18 @@
 {
-  "brandName": "SaasAble",
-  "title": "React Multipurpose UI Kit and Dashboard Template",
+  "brandName": "Algotrade",
+  "title": "Stock Market & Crypto Trading Platform",
   "company": {
-    "name": "Phoenixcoded",
-    "url": "https://phoenixcoded.net",
+    "name": "Tradnomic",
+    "url": "https://www.tradnomic.com",
     "socialLink": {
-      "linkedin": "https://in.linkedin.com/company/phoenixcoded",
+      "linkedin": "#",
       "instagram": "#",
-      "facebook": "https://www.facebook.com/Phoenixcoded/",
-      "youtube": "https://www.youtube.com/@Phoenixcoded",
-      "github": "https://github.com/phoenixcoded",
-      "dribble": "https://dribbble.com/Phoenixcoded",
-      "discord": "https://discord.com/invite/AfJqqYeG",
-      "support": "https://support.phoenixcoded.net"
+      "facebook": "#",
+      "youtube": "#",
+      "github": "#",
+      "dribble": "#",
+      "discord": "#",
+      "support": "#"
     }
   },
   "logo": {

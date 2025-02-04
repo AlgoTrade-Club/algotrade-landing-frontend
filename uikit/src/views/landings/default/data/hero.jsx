@@ -9,7 +9,7 @@ export const hero = {
     label: (
       <>
         <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-          One Kit, Endless
+          One Tool, Endless
         </Typography>
         <Chip
           label={
@@ -21,7 +21,7 @@ export const hero = {
           icon={
             <CardMedia
               component="img"
-              image="/assets/images/shared/celebration.svg"
+              image="/assets/images/shared/UpChart.svg"
               sx={{ width: 16, height: 16 }}
               alt="celebration"
               loading="lazy"
@@ -31,18 +31,18 @@ export const hero = {
       </>
     )
   },
-  headLine: 'Multipurpose UI Kit and Dashboard Template',
-  captionLine: 'Design marketing pages and powerful admin dashboards with ease using our UI Kit, built following Material 3 guidelines.',
-  primaryBtn: { children: 'Explore Blocks', href: SECTION_PATH },
+  headLine: 'Develop, Optimize, and Monitor Financial Models with Ease',
+  captionLine: 'Advanced automated tools with powerful Machine Learning capabilities to speed up development at any scale.',
+  primaryBtn: { children: 'Explore The Platform', href: SECTION_PATH },
   videoSrc: 'https://d2elhhoq00m1pj.cloudfront.net/saasable-intro.mp4',
   videoThumbnail: '/assets/videos/thumbnails/intro-thumbnail.png',
   listData: [
-    { image: '/assets/images/shared/react.svg', title: 'React 18' },
-    { image: '/assets/images/shared/next-js.svg', title: 'Next.js' },
-    { image: '/assets/images/shared/material-ui.svg', title: 'Material UI v6' },
-    { image: '/assets/images/shared/typescript.svg', title: 'TypeScript' },
-    { image: '/assets/images/shared/javascript.svg', title: 'JavaScript' },
-    { image: '/assets/images/shared/m3.svg', title: 'Material 3' },
-    { image: '/assets/images/shared/figma.svg', title: 'Figma' }
+    // { image: '/assets/images/shared/react.svg', title: 'React 18' },
+    // { image: '/assets/images/shared/next-js.svg', title: 'Next.js' },
+    // { image: '/assets/images/shared/material-ui.svg', title: 'Material UI v6' },
+    // { image: '/assets/images/shared/typescript.svg', title: 'TypeScript' },
+    // { image: '/assets/images/shared/javascript.svg', title: 'JavaScript' },
+    // { image: '/assets/images/shared/m3.svg', title: 'Material 3' },
+    // { image: '/assets/images/shared/figma.svg', title: 'Figma' }
   ]
 };

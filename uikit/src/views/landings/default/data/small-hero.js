@@ -11,7 +11,7 @@ export const smallHero = {
   },
   captionLine: `This Privacy Policy describes how ${branding.brandName} we collects, uses, and shares information about you when you use our website or services.`,
   headLine: 'Privacy Policy',
-  exploreBtn: { children: 'Contact Us', href: '#' }
+  exploreBtn: { children: 'Contact Us', href: '/contact' }
 };
 
 export const smallHero1 = {

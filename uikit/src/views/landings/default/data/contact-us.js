@@ -2,26 +2,26 @@
 import branding from '@/branding.json';
 
 export const contactUS = {
-  heading: 'We’d love to hear from you',
-  caption: 'Explore key statistics and trends shaping our understanding of the current landscape.',
+  heading: 'Get Started with Trading',
+  caption: 'Connect with our team to start your trading journey or get expert support.',
   list: [
     {
       icon: 'tabler-phone',
-      title: 'Contact Sale',
-      content: 'Speak to someone from our sales team.',
-      link: { children: 'Contact Sales', href: branding.company.socialLink.support, target: '_blank', rel: 'noopener noreferrer' }
+      title: 'Trading Support',
+      content: 'Get help with your trading account and platform features.',
+      link: { children: 'Contact Support', href: branding.company.socialLink.support, target: '_blank', rel: 'noopener noreferrer' }
     },
     {
       icon: 'tabler-help-circle',
-      title: 'Have a Question',
-      content: 'See our frequently asked question',
+      title: 'Trading FAQ',
+      content: 'Find answers about trading, accounts, and features',
       link: { children: 'Get Answers', href: '/faq' }
     },
     {
       icon: 'tabler-folder-check',
-      title: 'Press & Media',
-      content: 'Get in touch with our PR team',
-      link: { children: 'Press Contact', href: '/contact' }
+      title: 'Market Updates',
+      content: 'Stay informed with our latest market analysis',
+      link: { children: 'Market News', href: '/market-updates' }
     }
   ]
 };

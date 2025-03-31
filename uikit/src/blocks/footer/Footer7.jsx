@@ -36,19 +36,19 @@ const data = [
     title: 'Company',
     menu: [
       {
-        label: 'Why Phoenixcoded?',
+        label: 'Why Tradnomic?',
         link: {
-          href: 'https://blog.saasable.io/a-decade-of-expertise-the-phoenixcoded-story-and-why-you-should-trust-us',
+          href: 'https://www.tradnomic.com/about',
           ...linkProps
         }
       },
       {
         label: 'About',
-        link: { href: 'https://stage.saasable.io/about', ...linkProps }
+        link: { href: 'https://www.tradnomic.com/about', ...linkProps }
       },
       {
         label: 'Contact Us',
-        link: { href: '/contact', ...linkProps }
+        link: { href: '/contact', target: '_self' }
       }
     ]
   },
@@ -90,7 +90,7 @@ const data = [
       },
       {
         label: 'Blog',
-        link: { href: 'https://blog.saasable.io/', ...linkProps }
+        link: { href: 'https://www.tradnomic.com/blog', ...linkProps }
       },
       {
         label: 'Privacy Policy',
@@ -134,7 +134,7 @@ export default function Footer7() {
         {process.env.NEXT_PUBLIC_VERSION}
       </Typography>
       <Typography variant="body2" sx={{ maxWidth: { sm: 280 } }}>
-        Explore the different versions of our SaasAble template.
+        Explore the different features of our Algotrade platform.
       </Typography>
     </Stack>
   );

@@ -1,6 +1,6 @@
 export const testimonial = {
   heading: 'See What Our Customers Are Saying',
-  caption: `Trusted by thousands of users worldwide, hear how Phoenixcoded helps bring their projects to life.`,
+  caption: `Trusted by thousands of traders worldwide, hear how Algotrade helps bring their trading strategies to life.`,
   testimonials: [
     {
       title: 'Better support',

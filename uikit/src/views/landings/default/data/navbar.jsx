@@ -14,13 +14,11 @@ export const navbar = {
     ...linkProps,
     sx: { minWidth: 40, width: 40, height: 40, p: 0 }
   },
-  primaryBtn: { children: 'Buy Now', href: BUY_NOW_URL, ...linkProps },
+  primaryBtn: { children: 'Log in', href: BUY_NOW_URL, ...linkProps },
   navItems: [
     { id: 'home', title: 'Home', link: '/' },
+    { id: 'components', title: 'Components', link: SECTION_PATH },
     landingMegamenu,
-    { id: 'components', title: 'Blocks', link: SECTION_PATH },
-    { id: 'dashboard', title: 'Dashboard', link: ADMIN_PATH, ...linkProps },
-    pagesMegamenu,
-    { id: 'docs', title: 'Docs', link: DOCS_URL, ...linkProps, icon: 'tabler-pin-invoke' }
+    { id: 'dashboard', title: 'Dashboard', link: ADMIN_PATH, ...linkProps }
   ]
 };

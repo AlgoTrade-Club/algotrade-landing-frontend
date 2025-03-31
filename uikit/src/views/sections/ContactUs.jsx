@@ -82,7 +82,34 @@ const sectionsData = [
 
 /***************************  SECTIONS - CONTACT US  ***************************/
 
+import React from 'react';
+import { useFormik } from 'formik';
+import * as Yup from 'yup';
+import { Box, Button, TextField, Typography, Grid } from '@mui/material';
+
+const validationSchema = Yup.object({
+  name: Yup.string().required('Name is required'),
+  email: Yup.string().email('Invalid email address').required('Email is required'),
+  subject: Yup.string().required('Subject is required'),
+  message: Yup.string().required('Message is required'),
+});
+
 export default function ContactUs() {
+  const formik = useFormik({
+    initialValues: {
+      name: '',
+      email: '',
+      subject: '',
+      message: '',
+    },
+    validationSchema,
+    onSubmit: (values) => {
+      // Handle form submission
+      console.log('Form submitted:', values);
+      alert('Your message has been sent!');
+    },
+  });
+
   return (
     <>
       <SectionHero {...{ heading: `${branding.brandName} Contact Us Section`, breadcrumbs }} />

@@ -1,10 +1,10 @@
 {
-  "name": "saasable-ui-free",
+  "name": "algotrade-landing-frontend",
   "version": "1.0.0",
   "private": true,
   "author": {
-    "email": "phoenixcoded@gmail.com",
-    "name": "phoenixcoded"
+    "email": "info@tradnomic.com",
+    "name": "tradnomic"
   },
   "scripts": {
     "dev": "next dev",

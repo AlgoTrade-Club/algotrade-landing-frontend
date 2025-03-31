@@ -352,7 +352,7 @@ export default function Sections() {
 
   return (
     <>
-      <SectionHero heading="Craft Stunning Design with SaasAble Blocks" search={false} offer />
+      <SectionHero heading="Craft Stunning Design with Tradnomic Blocks" search={false} offer />
       <ContainerWrapper>
         <Stack sx={{ py: 6, gap: { xs: 3, sm: 4, md: 5 } }}>
           <Stack

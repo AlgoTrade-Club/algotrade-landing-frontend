@@ -72,38 +72,38 @@ export const feature5 = {
 };
 
 export const feature9 = {
-  heading: 'Streamline Your Business with Our CRM Solution',
-  caption: 'Discover the features that will transform your customer relationships',
+  heading: 'Advanced Trading Features',
+  caption: 'Discover powerful tools and features that will transform your trading experience',
   features: [
     {
       icon: 'custom-brain',
-      title: 'AI-Powered Analytics',
-      content: 'Leverage AI for Predictive Insights and Sales Opportunities.'
+      title: 'AI-Powered Trading',
+      content: 'Leverage advanced AI algorithms for predictive market analysis and trading signals.'
     },
     {
       icon: 'custom-path',
-      title: 'Journey Mapping',
-      content: 'Customer experiences at every touchpoint with it.'
+      title: 'Technical Analysis',
+      content: 'Comprehensive charting tools and technical indicators for informed decision-making.'
     },
     {
       icon: 'custom-statastic',
-      title: 'Voice & Speech Analytics',
-      content: 'Actionable insights from customer interactions through it.'
+      title: 'Real-time Analytics',
+      content: 'Live market data and instant analysis for timely trading decisions.'
     },
     {
       icon: 'custom-remote',
-      title: 'Sales Gamification',
-      content: 'Boost sales team motivation and performance with it.'
+      title: 'Automated Trading',
+      content: 'Set up and execute automated trading strategies with ease.'
     },
     {
       icon: 'custom-lock',
-      title: 'Subscription Management',
-      content: 'Effortlessly handle and optimize subscriptions with it.'
+      title: 'Risk Management',
+      content: 'Advanced tools for portfolio protection and risk assessment.'
     },
     {
       icon: 'custom-interface',
-      title: 'Intuitive Interface',
-      content: 'Simplify user interactions & enhance usability with it.'
+      title: 'Intuitive Platform',
+      content: 'User-friendly interface designed for both novice and experienced traders.'
     }
   ]
 };
@@ -206,7 +206,7 @@ export const feature21 = {
   primaryBtn: { children: 'Free Figma', href: 'https://www.figma.com/community/file/1425095061180549847', ...linkProps },
   secondaryBtn: {
     children: 'Preview Pro Figma',
-    href: 'https://www.figma.com/design/mlkXfeqxUKqIo0GQhPBqPb/SaasAble---UI-Kit---Preview-only?node-id=11-1833&t=JBHOIIEuYZpmN6v8-1',
+    href: 'https://www.tradnomic.com/design/mlkXfeqxUKqIo0GQhPBqPb/Tradnomic---UI-Kit---Preview-only?node-id=11-1833&t=JBHOIIEuYZpmN6v8-1',
     ...linkProps
   },
   features: [

@@ -19,7 +19,7 @@ function bannerData() {
       <Stack sx={{ gap: 1 }}>
         <Stack sx={{ alignItems: 'flex-start', gap: 1.5 }}>
           <Chip
-            label={<Typography variant="subtitle2">SaasAble Admin</Typography>}
+            label={<Typography variant="subtitle2">Tradnomic Admin</Typography>}
             icon={
               <CardMedia component="img" image="/assets/images/shared/celebration.svg" sx={{ width: 16, height: 16 }} alt="celebration" />
             }
@@ -29,7 +29,7 @@ function bannerData() {
           <Typography variant="h5">Exciting Dashboard on the Way!</Typography>
         </Stack>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          Effortlessly manage your app’s backend with customizable admin dashboards that enhance productivity.
+          Tradnomic offers 200+ customizable blocks, empowering you to effortlessly design and build landing pages tailored to your product or service needs.
         </Typography>
       </Stack>
       <Button href={ADMIN_PATH} target="_blank" variant="contained" sx={{ minWidth: 92, px: { xs: 2 }, py: 1.25 }}>
@@ -58,9 +58,9 @@ const data = {
     {
       title: 'External',
       itemsList: [
-        { title: 'Blog', link: { href: 'https://blog.saasable.io/', target: '_blank' } },
+        { title: 'Blog', link: { href: 'https://www.tradnomic.com/blog', target: '_blank' } },
         { title: 'Documentation', link: { href: DOCS_URL, target: '_blank' } },
-        { title: 'Support', link: { href: 'https://support.phoenixcoded.net/', target: '_blank' } },
+        { title: 'Support', link: { href: 'https://www.tradnomic.com/support', target: '_blank' } },
         {
           title: 'Discord',
           link: { href: 'https://discord.com/invite/2WpeGsQH98', target: '_blank' }

@@ -41,7 +41,7 @@ function footerData() {
           />
         </Stack>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          SaasAble offers 200+ customizable blocks, empowering you to effortlessly design and build landing pages tailored to your product
+          Tradnomic offers 200+ customizable blocks, empowering you to effortlessly design and build landing pages tailored to your product
           or service needs.
         </Typography>
       </Stack>
@@ -61,54 +61,43 @@ function footerData() {
 /***************************  NAVBAR - MEGAMENU LANDINGS  ***************************/
 
 export const landingMegamenu = {
-  id: 'landings',
-  title: 'Landings',
+  id: 'products',
+  title: 'Product',
   megaMenu: {
     type: MegaMenuType.MEGAMENU4,
     popperOffsetX: 195,
-    toggleBtn: { children: 'Landings' },
+    toggleBtn: { children: 'Product' },
     menuItems: [
       {
-        title: 'CRM',
-        theme: Themes.THEME_CRM,
-        image: '/assets/images/mega-menu/crm-light.svg',
-        status: 'Pro'
-      },
-      {
-        title: 'AI',
+        title: 'Sentiment Analyzer',
         theme: Themes.THEME_AI,
         image: '/assets/images/mega-menu/ai-light.svg',
-        status: 'Pro'
+        description: 'Analyze market sentiment from news and social media',
+        link: { href: '/products/sentiment-analyzer' }
       },
       {
-        title: 'Crypto',
+        title: 'Machine Learning Trading Model',
+        theme: Themes.THEME_AI,
+        image: '/assets/images/mega-menu/ai-light.svg',
+        description: 'Advanced ML models for predictive trading'
+      },
+      {
+        title: 'Technical Trading Model',
         theme: Themes.THEME_CRYPTO,
         image: '/assets/images/mega-menu/crypto-light.svg',
-        status: 'Pro'
+        description: 'Technical analysis based trading strategies'
       },
       {
-        title: 'Hosting',
-        theme: Themes.THEME_HOSTING,
-        image: '/assets/images/mega-menu/hosting-light.svg',
-        status: 'Pro'
-      },
-      {
-        title: 'PMS',
+        title: 'Risk Management Tools',
         theme: Themes.THEME_PMS,
         image: '/assets/images/mega-menu/pms-light.svg',
-        status: 'Pro'
+        description: 'Comprehensive risk assessment and management'
       },
       {
-        title: 'HRM',
-        theme: Themes.THEME_HRM,
-        image: '/assets/images/mega-menu/hrm-light.svg',
-        status: 'Pro'
-      },
-      {
-        title: 'Plugin',
-        theme: Themes.THEME_PLUGIN,
-        image: '/assets/images/mega-menu/plugin-light.svg',
-        status: 'Pro'
+        title: 'All-in-One Strategy Developer',
+        theme: Themes.THEME_CRM,
+        image: '/assets/images/mega-menu/crm-light.svg',
+        description: 'Complete platform for developing trading strategies'
       }
     ],
     footerData: footerData()
@@ -123,7 +112,7 @@ function bannerData() {
       <Stack sx={{ gap: 1 }}>
         <Stack sx={{ alignItems: 'flex-start', gap: 1.5 }}>
           <Chip
-            label={<Typography variant="subtitle2">SaasAble Admin Template</Typography>}
+            label={<Typography variant="subtitle2">Tradnomic Admin Template</Typography>}
             icon={
               <CardMedia
                 component="img"
@@ -162,7 +151,7 @@ export const pagesMegamenu = {
       {
         title: 'General',
         itemsList: [
-          { title: 'About', link: { href: 'https://stage.saasable.io/about', ...linkProps } },
+          { title: 'About', link: { href: 'https://www.tradnomic.com/about', ...linkProps } },
           { title: 'Career', status: 'Pro' },
           { title: 'Privacy Policy', link: { href: PAGE_PATH.privacyPolicyPage, ...linkProps } },
           { title: 'Contact Us', status: 'Pro' },
@@ -182,7 +171,7 @@ export const pagesMegamenu = {
       {
         title: 'External',
         itemsList: [
-          { title: 'Blog', link: { href: 'https://blog.saasable.io/', ...linkProps } },
+          { title: 'Blog', link: { href: 'https://www.tradnomic.com/blog', ...linkProps } },
           { title: 'Documentation', link: { href: DOCS_URL, ...linkProps } },
           { title: 'Support', link: { href: branding.company.socialLink.support, ...linkProps } },
           {

@@ -34,8 +34,7 @@ function footerData() {
           />
         </Stack>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          SaasAble offers 200+ customizable blocks, empowering you to effortlessly design and build landing pages tailored to your product
-          or service needs.
+          Tradnomic offers 200+ customizable blocks, empowering you to effortlessly design and build landing pages tailored to your product or service needs.
         </Typography>
       </Stack>
       <Button

@@ -13,20 +13,20 @@ export const integration = {
     rel: 'noopener noreferrer'
   },
   tagList: [
-    { label: 'Project Management' },
-    { label: 'Customer Relationship Management CRM' },
-    { label: 'HR & Recruitment' },
-    { label: 'Finance & Accounting' },
-    { label: 'E-commerce Solutions' },
-    { label: 'Marketing Automation' },
-    { label: 'Healthcare & Telemedicine' },
-    { label: 'LMS' },
-    { label: 'AI & ML Platforms' },
-    { label: 'Inventory & Supply Chain Management' },
-    { label: 'Customer Support & Help Desk' },
-    { label: 'Email Marketing and SEO Tools' },
-    { label: 'Networking Platforms' },
-    { label: 'Blogging Tools' },
-    { label: 'Data Analytics & Business Intelligence' }
+    { label: 'Stock Market Trading' },
+    { label: 'Cryptocurrency Trading' },
+    { label: 'Technical Analysis' },
+    { label: 'Algorithmic Trading' },
+    { label: 'Portfolio Management' },
+    { label: 'Risk Management' },
+    { label: 'Market Analysis' },
+    { label: 'Trading Automation' },
+    { label: 'AI Trading Strategies' },
+    { label: 'Real-time Market Data' },
+    { label: 'Trading Analytics' },
+    { label: 'Financial Reporting' },
+    { label: 'Asset Management' },
+    { label: 'Trading Education' },
+    { label: 'Market Intelligence' }
   ]
 };

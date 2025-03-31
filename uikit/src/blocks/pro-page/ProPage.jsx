@@ -40,8 +40,8 @@ export default function ProPage({ image }) {
               Discover the Components Not Available in the Free Version
             </Typography>
             <Typography variant="body1" color="textSecondary" sx={{ mb: 3, color: 'grey.700', textAlign: 'center' }}>
-              <Link href="https://www.saasable.io/" target="_blank" underline="hover" component={NextLink}>
-                Check out SaasAble PRO
+              <Link href="https://www.tradnomic.com/" target="_blank" underline="hover" component={NextLink}>
+                Check out Tradnomic PRO
               </Link>{' '}
               which offers updated components, auto layout, and Figma new variables, complete with dark mode!
             </Typography>
@@ -51,7 +51,7 @@ export default function ProPage({ image }) {
                 <Button
                   variant="outlined"
                   component={NextLink}
-                  href="https://www.figma.com/design/mlkXfeqxUKqIo0GQhPBqPb/SaasAble---UI-Kit---Preview-only?node-id=11-1833&t=JBHOIIEuYZpmN6v8-1"
+                  href="https://www.figma.com/design/mlkXfeqxUKqIo0GQhPBqPb/Tradnomic---UI-Kit---Preview-only?node-id=11-1833&t=JBHOIIEuYZpmN6v8-1"
                   target="_blank"
                   sx={{ minWidth: 215 }}
                   startIcon={<CardMedia component="img" src="/assets/images/shared/figma.svg" sx={{ width: 16, height: 16 }} alt="figma" />}
@@ -65,7 +65,7 @@ export default function ProPage({ image }) {
                     variant="contained"
                     color="primary"
                     component={NextLink}
-                    href={'https://www.saasable.io/sections'}
+                    href={'https://www.tradnomic.com/sections'}
                     target="_blank"
                     startIcon={<SvgIcon name="tabler-sparkles" size={16} stroke={3} color="background.default" />}
                   >

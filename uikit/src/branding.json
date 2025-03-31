@@ -5,7 +5,7 @@
     "name": "Tradnomic",
     "url": "https://www.tradnomic.com",
     "socialLink": {
-      "linkedin": "#",
+      "linkedin": "https://www.linkedin.com/company/tradnomic/about/",
       "instagram": "#",
       "facebook": "#",
       "youtube": "#",
@@ -16,9 +16,9 @@
     }
   },
   "logo": {
-    "main": "",
-    "logoIcon": "",
-    "logoFab": "",
-    "logoWatermark": ""
+    "main": "/assets/images/shared/tradnomic-logo.svg",
+    "logoIcon": "/assets/images/shared/tradnomic-logo.svg",
+    "logoFab": "/assets/images/shared/tradnomic-logo.svg",
+    "logoWatermark": "/assets/images/shared/tradnomic-logo.svg"
   }
 }

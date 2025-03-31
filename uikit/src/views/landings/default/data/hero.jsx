@@ -9,7 +9,7 @@ export const hero = {
     label: (
       <>
         <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-          One Tool, Endless
+          One Tool, Hundres of Possibilities
         </Typography>
         <Chip
           label={
@@ -31,7 +31,7 @@ export const hero = {
       </>
     )
   },
-  headLine: 'Develop, Optimize, and Monitor Financial Models with Ease',
+  headLine: 'Trade with Ease, Trade with Tradnomic',
   captionLine: 'Advanced automated tools with powerful Machine Learning capabilities to speed up development at any scale.',
   primaryBtn: { children: 'Explore The Platform', href: SECTION_PATH },
   videoSrc: 'https://d2elhhoq00m1pj.cloudfront.net/saasable-intro.mp4',

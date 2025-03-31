@@ -72,9 +72,9 @@ const menuItems = [
     title: 'Company',
     menu: [
       {
-        label: 'Why Phoenixcoded?',
+        label: 'Why Tradnomic?',
         link: {
-          href: 'https://blog.saasable.io/a-decade-of-expertise-the-phoenixcoded-story-and-why-you-should-trust-us',
+          href: 'https://www.tradnomic.com/about',
           ...linkProps
         }
       },
@@ -84,7 +84,7 @@ const menuItems = [
       },
       {
         label: 'Contact Us',
-        link: { href: '/contact', ...linkProps }
+        link: { href: '/contact', target: '_blank' }
       }
     ]
   }

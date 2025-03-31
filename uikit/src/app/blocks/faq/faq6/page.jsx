@@ -10,27 +10,27 @@ const data = {
   defaultExpanded: 'Fees & Charges',
   faqList: [
     {
-      question: `What makes ${branding.brandName} different from other UI Kits?`,
-      answer: `${branding.brandName} offers industry-specific templates, a React Material UI Kit, Figma UI Kit, and flexible customization options that cater to both front-end marketing and admin interfaces.`,
+      question: `What makes ${branding.brandName} different from other trading platforms?`,
+      answer: `${branding.brandName} combines advanced AI-powered analytics with comprehensive trading tools, offering real-time market data, automated trading strategies, and sophisticated risk management features. Our platform provides a seamless experience for both stock market and cryptocurrency trading.`,
       category: 'General'
     },
     {
-      question: `Is ${branding.brandName} suitable for both developers and designers?`,
+      question: `Is ${branding.brandName} suitable for both beginners and professional traders?`,
       answer: {
-        content: `Yes, ${branding.brandName} is built for both, with a Figma UI kit for designers and React code for developers.`,
+        content: `Yes, ${branding.brandName} is designed to accommodate traders of all experience levels, from beginners to professional traders.`,
         type: 'list',
         data: [
-          { primary: 'Figma UI Kit for Designers.' },
-          { primary: 'React Material UI Code for Developers.' },
-          { primary: 'Seamless Collaboration.' }
+          { primary: 'User-friendly interface for newcomers' },
+          { primary: 'Advanced tools for professional trading' },
+          { primary: 'Comprehensive educational resources' }
         ]
       },
       category: 'General'
     },
     {
-      question: `What is the difference between the Figma and codebase versions?`,
+      question: `What trading features does ${branding.brandName} offer?`,
       answer:
-        'The Figma version is for design and prototyping, while the codebase version provides ready-to-use React components for development.',
+        'Our platform provides real-time market data, technical analysis tools, automated trading capabilities, AI-powered market insights, and comprehensive portfolio management features.',
       category: 'General'
     },
     {
@@ -93,7 +93,7 @@ const data = {
       category: 'Support & Updates'
     }
   ],
-  getInTouch: { link: { children: 'Get in Touch', href: 'https://support.phoenixcoded.net/', target: '_blank' } },
+  getInTouch: { link: { children: 'Get in Touch', href: branding.company.socialLink.support, target: '_blank', rel: 'noopener noreferrer' } },
   categories: ['General', 'Pricing & Licenses', 'Support & Updates'],
   activeCategory: 'General'
 };

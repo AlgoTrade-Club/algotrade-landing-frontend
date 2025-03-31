@@ -7,10 +7,10 @@ import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 
 export const cta4 = {
-  headLine: 'Why Trust Phoenixcoded for Your Dashboard Template Needs?',
+  headLine: 'Why Trust Tradnomic for Your Trading Platform Needs?',
   primaryBtn: {
     children: 'Read Our story',
-    href: 'https://blog.saasable.io/a-decade-of-expertise-the-phoenixcoded-story-and-why-you-should-trust-us',
+    href: 'https://www.tradnomic.com/about',
     target: '_blank',
     rel: 'noopener noreferrer'
   },
@@ -74,7 +74,7 @@ export const cta10 = {
   heading: "Couldn't find the perfect role for you?",
   caption: 'No worries – we encourage you to apply anyway! Your unique skills and talents might be just what we need.',
   primaryBtn: { children: 'Send Your Resume', href: '#' },
-  secondaryBtn: { children: 'Contact Us', href: '#' },
+  secondaryBtn: { children: 'Contact Us', href: '/contact' },
   image: '/assets/images/graphics/ai/graphics15-light.svg',
   profileGroups: {
     avatarGroups: [

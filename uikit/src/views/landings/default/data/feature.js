@@ -351,35 +351,20 @@ export const feature23 = {
 };
 
 export const feature18 = {
-  heading: 'Powerful Admin Interface',
-  caption: 'Manage data, users, and workflows effortlessly with intuitive, customizable admin controls and features.',
+  heading: 'Powerful Interface',
+  caption: 'Manage projects, algorithms, and code effortlessly with intuitive controls and features.',
   topics: [
     {
       icon: 'tabler-sparkles',
-      title: 'Material UI Powered',
-      title2: 'Leverage Power of Material UI Components',
-      description: 'The power and flexibility of Material UI components in admin template',
-      image: '/assets/images/graphics/default/admin-dashboard.png',
+      title: 'Develop Your Algorithms',
+      title2: 'All in one code editor',
+      description: 'Write code, set the paremeters and run the algorithms.',
+      image: '/assets/images/graphics/default/code_editor.png',
       list: [
-        { primary: 'Nextjs JavaScript/TypeScript' },
-        { primary: 'Customizable Themes' },
-        { primary: 'Rich Form and Table Components' },
-        { primary: 'Responsive Grid System' }
-      ],
-      actionBtn: { children: 'View Dashboard', href: ADMIN_PATH, ...linkProps },
-      actionBtn2: { children: 'Docs', href: DOCS_URL, ...linkProps }
-    },
-    {
-      icon: 'tabler-palette',
-      title: 'Customizable Themes',
-      title2: 'Flexible Theming Options',
-      description: 'Tailor themes effortlessly with MUI v6 robust theming system.',
-      image: '/assets/images/graphics/default/admin-dashboard-2.png',
-      list: [
-        { primary: 'Easy options for Theming' },
-        { primary: 'Layout Options' },
-        { primary: 'Color Presets tailored to your Web Apps' },
-        { primary: 'Consistency in Design' }
+        { primary: 'Python' },
+        { primary: 'C/C++' },
+        { primary: 'Custom VCS or use Github' },
+        { primary: 'Automatically detect parameters' }
       ],
       actionBtn: { children: 'View Dashboard', href: ADMIN_PATH, ...linkProps },
       actionBtn2: { children: 'Docs', href: DOCS_URL, ...linkProps }

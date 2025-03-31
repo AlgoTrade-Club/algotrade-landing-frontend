@@ -1,7 +1,7 @@
 // @project
 import { landingMegamenu, pagesMegamenu } from '../../common-data';
 import SvgIcon from '@/components/SvgIcon';
-import { SECTION_PATH, ADMIN_PATH, BUY_NOW_URL, DOCS_URL, FREEBIES_URL } from '@/path';
+import { SECTION_PATH, ADMIN_PATH, BUY_NOW_URL, DOCS_URL, FREEBIES_URL, PAGE_PATH } from '@/path';
 
 /***************************  DEFAULT - NAVBAR  ***************************/
 
@@ -17,8 +17,11 @@ export const navbar = {
   primaryBtn: { children: 'Log in', href: BUY_NOW_URL, ...linkProps },
   navItems: [
     { id: 'home', title: 'Home', link: '/' },
-    { id: 'components', title: 'Components', link: SECTION_PATH },
+    { id: 'about', title: 'About', link: PAGE_PATH.aboutPage },
+    // { id: 'components', title: 'Components', link: SECTION_PATH },
     landingMegamenu,
-    { id: 'dashboard', title: 'Dashboard', link: ADMIN_PATH, ...linkProps }
+    { id: 'dashboard', title: 'Dashboard', link: ADMIN_PATH, ...linkProps },
+    { id: 'contact', title: 'Contact', link: PAGE_PATH.contactPage }
+
   ]
 };

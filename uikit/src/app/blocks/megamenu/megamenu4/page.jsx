@@ -19,7 +19,7 @@ function footerData() {
     <Stack direction={{ sm: 'row' }} sx={{ gap: 1.5, justifyContent: 'space-between', alignItems: { xs: 'flex-start', sm: 'center' } }}>
       <Stack sx={{ gap: 1 }}>
         <Stack direction="row" sx={{ alignItems: 'center', gap: 1 }}>
-          <Typography variant="h5">New landing demos are coming soon!</Typography>
+          <Typography variant="h5">Explore our new demos!</Typography>
           <Chip
             label={<Typography variant="caption">Coming Soon</Typography>}
             size="small"
@@ -34,7 +34,7 @@ function footerData() {
           />
         </Stack>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          Tradnomic offers 200+ customizable blocks, empowering you to effortlessly design and build landing pages tailored to your product or service needs.
+          Discover over 200 customizable blocks with Tradnomic, designed to help you create landing pages that perfectly fit your product or service.
         </Typography>
       </Stack>
       <Button

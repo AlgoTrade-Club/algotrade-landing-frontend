@@ -9,9 +9,9 @@ const ScrollFab = dynamic(() => import('@/components/ScrollFab'));
 const ThemeAI = dynamic(() => import('@/views/landings/ai/theme'));
 const MainLayout = dynamic(() => import('@/views/landings/default/layout'));
 
-/***************************  LAYOUT - AI  ***************************/
+/***************************  LAYOUT - DEFAULT  ***************************/
 
-export default function AI({ children }) {
+export default function DefaultLayout({ children }) {
   return (
     <ThemeAI>
       <MainLayout>
@@ -26,4 +26,4 @@ export default function AI({ children }) {
   );
 }
 
-AI.propTypes = { children: PropTypes.any };
+DefaultLayout.propTypes = { children: PropTypes.any };

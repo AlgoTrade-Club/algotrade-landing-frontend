@@ -4,40 +4,50 @@ import { BUY_NOW_URL, FREEBIES_URL } from '@/path';
 const linkProps = { target: '_blank', rel: 'noopener noreferrer' };
 
 export const pricing = {
-  heading: 'The Affordable Unfair Advantage',
-  caption: 'Choose the plan that aligns with your SaaS product requirements.',
+  heading: 'Pricing Plans for Every Trader',
+  caption: 'Choose the plan that aligns with your trading needs and goals.',
   features: [
-    { id: 1, label: '1 Demo Landing' },
-    { id: 2, label: '7 Demo Landing' },
-    { id: 3, label: '25 Components Blocks' },
-    { id: 4, label: '193+ Component Blocks' },
-    { id: 5, label: 'Dark/Light Mode' },
-    { id: 6, label: 'Typescript Version' },
-    { id: 7, label: 'Design File (Figma)' },
-    { id: 8, label: 'Multiple Color Options' },
-    { id: 9, label: 'RTL' },
-    { id: 10, label: 'Supbase Authentication' }
+    { id: 1, label: 'Market Data Access' },
+    { id: 2, label: 'Basic Sentiment Analysis' },
+    { id: 3, label: 'Advanced Sentiment Analysis' },
+    { id: 4, label: 'Technical Indicators' },
+    { id: 5, label: 'Machine Learning Models' },
+    { id: 6, label: 'Risk Management Tools' },
+    { id: 7, label: 'Strategy Backtesting' },
+    { id: 8, label: 'API Access' },
+    { id: 9, label: 'Priority Support' },
+    { id: 10, label: 'Custom Strategy Development' }
   ],
   plans: [
     {
-      title: 'Free',
+      title: 'Basic',
       price: 0,
       active: false,
       featureTitle: 'Features',
-      content: 'Learn more about the MIT',
-      contentLink: { children: 'license', href: 'https://mui.com/store/license/', ...linkProps },
-      exploreLink: { children: 'Get Started With Free', href: FREEBIES_URL, ...linkProps },
-      featuresID: [1, 3]
+      content: 'Perfect for beginners exploring algorithmic trading',
+      contentLink: { children: 'Learn more', href: '#', ...linkProps },
+      exploreLink: { children: 'Get Started Free', href: FREEBIES_URL, ...linkProps },
+      featuresID: [1, 2, 4]
     },
     {
       title: 'Pro',
-      active: false,
-      price: 69,
+      active: true,
+      price: 49,
       featureTitle: 'Features',
-      content: 'Learn more about the Pro',
-      contentLink: { children: 'license', href: 'https://mui.com/store/license/', ...linkProps },
-      exploreLink: { children: 'Get Started With Pro', href: BUY_NOW_URL, ...linkProps },
-      featuresID: [2, 4, 5, 6, 7, 8, 9, 10]
+      content: 'For serious traders looking for an edge',
+      contentLink: { children: 'Learn more', href: '#', ...linkProps },
+      exploreLink: { children: 'Upgrade to Pro', href: BUY_NOW_URL, ...linkProps },
+      featuresID: [1, 2, 3, 4, 5, 7, 8]
+    },
+    {
+      title: 'Enterprise',
+      active: false,
+      price: 99,
+      featureTitle: 'Features',
+      content: 'For professional trading firms and institutions',
+      contentLink: { children: 'Learn more', href: '#', ...linkProps },
+      exploreLink: { children: 'Contact Sales', href: '#', ...linkProps },
+      featuresID: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     }
   ]
 };

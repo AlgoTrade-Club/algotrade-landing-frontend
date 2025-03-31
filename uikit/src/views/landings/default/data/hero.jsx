@@ -9,9 +9,9 @@ export const hero = {
     label: (
       <>
         <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-          One Tool, Hundres of Possibilities
+          Trade in One Place
         </Typography>
-        <Chip
+        {/* <Chip
           label={
             <Typography variant="caption" sx={{ color: 'primary.main' }}>
               Possibilities
@@ -27,7 +27,7 @@ export const hero = {
               loading="lazy"
             />
           }
-        />
+        /> */}
       </>
     )
   },

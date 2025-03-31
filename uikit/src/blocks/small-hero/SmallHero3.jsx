@@ -20,7 +20,7 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 export default function SmallHero3({ chip, headLine, captionLine, exploreBtn }) {
   return (
     <ContainerWrapper sx={{ py: SECTION_COMMON_PY }}>
-      <Stack sx={{ alignItems: 'start', gap: { xs: 1.5, md: 4 } }}>
+      <Stack sx={{ alignItems: 'center', gap: { xs: 1.5, md: 4 }, width: 1 }}>
         {chip && (
           <Chip
             label={
@@ -46,8 +46,8 @@ export default function SmallHero3({ chip, headLine, captionLine, exploreBtn }) 
           />
         )}
 
-        <Stack direction="row" sx={{ justifyContent: 'space-between', flexWrap: { xs: 'wrap', md: 'unset' }, width: 1, gap: 3 }}>
-          <Stack sx={{ gap: 1.5 }}>
+        <Stack direction="row" sx={{ justifyContent: 'center', flexWrap: { xs: 'wrap', md: 'unset' }, width: 1, gap: 3 }}>
+          <Stack sx={{ gap: 1.5, alignItems: 'center', textAlign: 'center' }}>
             {typeof headLine === 'string' ? <Typography variant="h1">{headLine}</Typography> : headLine}
             {captionLine && (
               <Typography variant="h6" sx={{ color: 'text.secondary', width: { md: '85%' } }}>

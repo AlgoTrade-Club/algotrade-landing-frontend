@@ -1,0 +1,1 @@
+export { default as Team1 } from './team1';

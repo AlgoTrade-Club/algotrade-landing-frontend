@@ -32,10 +32,10 @@ const navItemSX = { py: 1.5, borderRadius: { xs: 0, sm: 4 } };
 /***************************  MENU - EXPANDED  ***************************/
 
 function ExpanedList({ item, menuTextColor }) {
-  const [open, setOpen] = useState(item.expanded || false);
+  const [open, setOpen] = useState(item.expanded ? "true" : "false");
 
   const handleClick = () => {
-    setOpen(!open);
+    setOpen(open === "true" ? "false" : "true");
   };
 
   return (
@@ -50,13 +50,13 @@ function ExpanedList({ item, menuTextColor }) {
             transform: 'translateY(-50%)',
             transition: `transform 0.15s`,
             mr: 2.5,
-            ...(open && { transform: 'translateY(-62%) rotate(-180deg)' })
+            ...(open === "true" && { transform: 'translateY(-62%) rotate(-180deg)' })
           }}
         >
           <SvgIcon name="tabler-chevron-down" size={16} color={menuTextColor || 'text.primary'} stroke={2.5} />
         </Box>
       </ListItemButton>
-      <Collapse in={open}>
+      <Collapse in={open === "true"}>
         <Box sx={{ mb: 0.5 }}>
           {item.megaMenu && item.megaMenu.type === MegaMenuType.MEGAMENU4 && (
             <MegaMenu4 {...{ ...{ ...item.megaMenu, footerData: item.megaMenu.footerData }, footerSX: { px: 5, ml: -2.5, mr: -5 } }} />

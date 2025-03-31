@@ -40,15 +40,15 @@ const contactInfo = [
   {
     icon: 'tabler-map-pin',
     title: 'Location',
-    content: 'San Francisco, CA',
-    link: 'https://maps.google.com/?q=San+Francisco,+CA'
+    content: 'San Jose, CA',
+    link: 'https://maps.google.com/?q=San+Jose,+CA'
   }
 ];
 
 const socialLinks = [
-  { icon: 'tabler-brand-twitter', link: 'https://twitter.com/tradnomic' },
+  // { icon: 'tabler-brand-twitter', link: 'https://twitter.com/tradnomic' },
   { icon: 'tabler-brand-linkedin', link: 'https://linkedin.com/company/tradnomic' },
-  { icon: 'tabler-brand-github', link: 'https://github.com/tradnomic' }
+  { icon: 'tabler-brand-github', link: 'https://github.com/Tradnomic' }
 ];
 
 export default function ContactPage() {
@@ -153,7 +153,7 @@ export default function ContactPage() {
                   </Typography>
 
                   <Stack spacing={3}>
-                    <Grid container spacing={2}>
+                    <Grid container spacing={0}>
                       <Grid item xs={12} sm={6}>
                         <TextField
                           fullWidth

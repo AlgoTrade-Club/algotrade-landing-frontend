@@ -31,7 +31,7 @@ export default function AboutUs() {
       {/* Hero Section */}
       <SmallHero3 
         headLine="Tradnomic"
-        captionLine="Revolutionizing High-Frequency Trading with Advanced Machine Learning"
+        captionLine="Revolutionizing Trading"
         chip={{
           label: 'We are hiring! ',
           link: { children: 'learn more', href: '#' }

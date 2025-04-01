@@ -371,30 +371,29 @@ export const feature18 = {
     },
     {
       icon: 'tabler-rocket',
-      title: 'Faster Development',
-      title2: 'Rapid Development',
-      description: 'Launch projects quicker with pre-built layouts and components.',
-      image: '/assets/images/graphics/default/admin-dashboard-3.png',
+      title: 'Test and Optimize',
+      title2: 'Backtesting and Parameter Optimization',
+      description: 'Find stronger alpha quicker with automated backtesting and parameter optimization.',
+      image: '/assets/images/graphics/default/parameters.png',
       list: [
         { primary: 'Time Saving' },
-        { primary: 'Tested and Reliable' },
-        { primary: 'Customization Ready' },
-        { primary: 'Enhanced User Experience' }
+        { primary: 'Continous Testing' },
+        { primary: 'Automated Optimization' },
+        { primary: 'Find Stronger Alpha' }
       ],
       actionBtn: { children: 'View Dashboard', href: ADMIN_PATH, ...linkProps },
       actionBtn2: { children: 'Docs', href: DOCS_URL, ...linkProps }
     },
     {
       icon: 'tabler-scale',
-      title: 'Scalability',
-      title2: 'Build to Scale',
-      description: 'Easily scale your app with flexible, modular, and extensible templates.',
-      image: '/assets/images/graphics/default/admin-dashboard.png',
+      title: 'Deploy and Monitor',
+      title2: 'Deploy and Monitor',
+      description: 'Choose the exchange to deploy to and monitor your algorithms in real-time.',
+      image: '/assets/images/graphics/default/deploy.png',
       list: [
-        { primary: 'Modular Architecture' },
-        { primary: 'Performance Optimized' },
-        { primary: 'Extensible Codebase' },
-        { primary: 'Future Proof Design' }
+        { primary: 'Multi-Exchange Support' },
+        { primary: 'Real-Time Monitoring' },
+        { primary: 'Automated Deployment' },
       ],
       actionBtn: { children: 'View Dashboard', href: ADMIN_PATH, ...linkProps },
       actionBtn2: { children: 'Docs', href: DOCS_URL, ...linkProps }

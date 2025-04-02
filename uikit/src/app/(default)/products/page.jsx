@@ -37,28 +37,7 @@ const products = [
     status: 'Live'
   },
   {
-    title: 'Machine Learning Trading Model',
-    description: 'Advanced machine learning models that predict market movements with high accuracy.',
-    image: '/assets/images/mega-menu/ai-light.svg',
-    theme: Themes.THEME_AI,
-    status: 'Coming Soon'
-  },
-  {
-    title: 'Technical Trading Model',
-    description: 'Sophisticated technical analysis tools for identifying trading opportunities.',
-    image: '/assets/images/mega-menu/crypto-light.svg',
-    theme: Themes.THEME_CRYPTO,
-    status: 'Coming Soon'
-  },
-  {
-    title: 'Risk Management Tools',
-    description: 'Comprehensive risk assessment and management tools to protect your investments.',
-    image: '/assets/images/mega-menu/pms-light.svg',
-    theme: Themes.THEME_PMS,
-    status: 'Coming Soon'
-  },
-  {
-    title: 'All-in-One Strategy Developer',
+    title: 'HammerTrade',
     description: 'Complete platform for developing, testing, and deploying trading strategies.',
     image: '/assets/images/mega-menu/crm-light.svg',
     theme: Themes.THEME_CRM,

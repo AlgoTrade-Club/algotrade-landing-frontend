@@ -76,31 +76,12 @@ export const landingMegamenu = {
         link: { href: '/products/sentiment-analyzer' }
       },
       {
-        title: 'Machine Learning Trading Model',
-        theme: Themes.THEME_AI,
-        image: '/assets/images/mega-menu/ai-light.svg',
-        description: 'Advanced ML models for predictive trading'
-      },
-      {
-        title: 'Technical Trading Model',
-        theme: Themes.THEME_CRYPTO,
-        image: '/assets/images/mega-menu/crypto-light.svg',
-        description: 'Technical analysis based trading strategies'
-      },
-      {
-        title: 'Risk Management Tools',
-        theme: Themes.THEME_PMS,
-        image: '/assets/images/mega-menu/pms-light.svg',
-        description: 'Comprehensive risk assessment and management'
-      },
-      {
-        title: 'All-in-One Strategy Developer',
+        title: 'HammerTrade Platform',
         theme: Themes.THEME_CRM,
         image: '/assets/images/mega-menu/crm-light.svg',
         description: 'Complete platform for developing trading strategies'
       }
     ],
-    footerData: footerData()
   }
 };
 

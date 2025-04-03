@@ -5,7 +5,7 @@ function path(urlChunks) {
 export const SECTION_PATH = '/sections';
 export const ADMIN_PATH = 'https://admin.tradnomic.com/';
 export const BUY_NOW_URL = 'https://www.tradnomic.com/products';
-export const FREEBIES_URL = 'https://github.com/tradnomic/algotrade';
+export const FREEBIES_URL = 'https://github.com/Tradnomic';
 export const DOCS_URL = 'https://docs.tradnomic.com';
 export const BLOCK_PATH = '/blocks';
 const AUTH_PATH = 'auth';
@@ -60,7 +60,11 @@ export const PAGE_PATH = {
   faqPage: '/faq',
   pricingPage: '/pricing',
   privacyPolicyPage: '/privacy-policy',
-  termsConditionPage: '/terms-condition'
+  termsConditionPage: '/terms-condition',
+  waitListPage: '/waitlist',
+  JOIN_WAITLIST: '/join-waitlist',
+  products: path([SECTION_PATH, 'products']),
+  hammertrade: path([SECTION_PATH, 'products', 'hammertrade']),
 };
 
 export const PRIVIEW_PATH = {

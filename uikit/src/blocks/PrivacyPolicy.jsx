@@ -81,7 +81,7 @@ const menuItems = [
     id: 'intellectual-property',
     heading: 'Intellectual Property',
     caption:
-      'All content on this website, including but not limited to text, graphics, logos, images, audio clips, video clips, digital downloads, and data compilations, is the property of [Your Company Name] or its content suppliers and protected by international copyright laws.'
+      'All content on this website, including but not limited to text, graphics, logos, images, audio clips, video clips, digital downloads, and data compilations, is the property of Tradnomic Inc. or its content suppliers and protected by international copyright laws.'
   },
   {
     id: 'privacy-policy',

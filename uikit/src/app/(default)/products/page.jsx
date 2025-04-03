@@ -37,11 +37,12 @@ const products = [
     status: 'Live'
   },
   {
-    title: 'HammerTrade',
+    title: 'HammerTrade Platform',
     description: 'Complete platform for developing, testing, and deploying trading strategies.',
     image: '/assets/images/mega-menu/crm-light.svg',
     theme: Themes.THEME_CRM,
-    status: 'Coming Soon'
+    link: '/products/hammertrade',
+    status: 'Live'
   }
 ];
 

@@ -79,7 +79,8 @@ export const landingMegamenu = {
         title: 'HammerTrade Platform',
         theme: Themes.THEME_CRM,
         image: '/assets/images/mega-menu/crm-light.svg',
-        description: 'Complete platform for developing trading strategies'
+        description: 'Complete platform for developing trading strategies',
+        link: { href: '/products/hammertrade' }
       }
     ],
   }

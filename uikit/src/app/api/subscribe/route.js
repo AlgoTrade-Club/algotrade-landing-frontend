@@ -3,6 +3,7 @@ import { NextResponse } from 'next/server';
 
 // @third-party
 import axios from 'axios';
+import nodemailer from 'nodemailer';
 
 /***************************  API - MAILERLITE SUBSCRIBE  ***************************/
 
@@ -27,6 +28,25 @@ export async function POST(request) {
         }
       }
     );
+
+    // Send notification email to info@tradnomic.com
+    const transporter = nodemailer.createTransport({
+      host: process.env.SMTP_HOST,
+      port: process.env.SMTP_PORT,
+      secure: true,
+      auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS
+      }
+    });
+
+    await transporter.sendMail({
+      from: process.env.SMTP_USER,
+      to: 'support@tradnomic.com',
+      subject: 'New Waitlist Signup',
+      text: `New signup for the waitlist: ${email}`,
+      html: `<p>New signup for the waitlist: <strong>${email}</strong></p>`
+    });
 
     // Handle successful response
     return NextResponse.json({ message: 'Subscribed successfully!' }, { status: 200 });

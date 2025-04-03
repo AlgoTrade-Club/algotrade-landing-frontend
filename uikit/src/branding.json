@@ -1,6 +1,6 @@
 {
-  "brandName": "HammerTrade",
-  "title": "Stock Market & Crypto Trading Platform",
+  "brandName": "Tradnomic",
+  "title": "Trade with Ease",
   "company": {
     "name": "Tradnomic",
     "url": "https://www.tradnomic.com",
@@ -16,7 +16,7 @@
     }
   },
   "logo": {
-    "main": "/assets/images/shared/tradnomic-logo.svg",
+    "main": "/assets/images/shared/tradnomic-main-logo.svg",
     "logoIcon": "/assets/images/shared/tradnomic-logo.svg",
     "logoFab": "/assets/images/shared/tradnomic-logo.svg",
     "logoWatermark": "/assets/images/shared/tradnomic-logo.svg"

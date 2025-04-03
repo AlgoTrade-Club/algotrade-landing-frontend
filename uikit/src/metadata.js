@@ -4,7 +4,7 @@ import { PAGE_PATH, SECTION_PATH } from '@/path';
 
 /***************************  SEO METADATA - MAIN LAYOUT  ***************************/
 
-const title = `${branding.brandName} ${branding.title}`;
+const title = `${branding.brandName} - ${branding.title}`;
 const description = `${branding.brandName} is a cutting-edge trading platform designed to revolutionize stock market and cryptocurrency trading. Our platform offers a comprehensive suite of features that enable traders to analyze markets, execute trades, and optimize their strategies. With ${branding.brandName}, traders can easily track market movements, implement automated trading algorithms, and manage their portfolios efficiently. Whether you're a beginner or a professional trader, ${branding.brandName} has the tools and expertise to help you succeed in today's volatile markets. Join the ${branding.brandName} community and experience the power of innovative trading solutions for financial success`;
 
 const ogCommonMetadata = {

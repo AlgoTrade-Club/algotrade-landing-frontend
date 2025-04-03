@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
         {/* Preconnect and DNS Prefetch */}
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>

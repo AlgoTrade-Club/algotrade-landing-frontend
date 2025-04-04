@@ -162,7 +162,7 @@ export default function AboutUs() {
       </ContainerWrapper>
 
       {/* What We Do Section */}
-      <ContainerWrapper sx={{ py: SECTION_COMMON_PY, bgcolor: 'background.neutral' }}>
+      {/* <ContainerWrapper sx={{ py: SECTION_COMMON_PY, bgcolor: 'background.neutral' }}>
         <Stack spacing={4}>
           <Typography variant="h2" align="center" sx={{ color: '#002855' }}>What We Do</Typography>
           <Grid container spacing={4}>
@@ -192,10 +192,10 @@ export default function AboutUs() {
             </Grid>
           </Grid>
         </Stack>
-      </ContainerWrapper>
+      </ContainerWrapper> */}
 
       {/* Team Section */}
-      <Team1 />
+      {/* <Team1 /> */}
     </>
   );
 }

@@ -1,19 +1,27 @@
-1: # Tradnomic - Material UI Next.js App Router based Free project
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/HEAD/packages/create-next-app) with Material UI installed.
+# Algotrade - Stock Market & Crypto Trading Platform
 
-## How to use
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-```bash
-cd ui-kit
+## Getting Started
+
+1. Clone the repository
+
+2. Execute the start-app.sh script to start the application and connect to the database
+
+```
+./start-app.sh
 ```
 
-Install it and run:
+## Technology stack
 
-```bash
-npm install
-npm run dev
-```
+- [Material UI V6](https://mui.com/core/)
+- Next.js
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Author
 
+Algotrade is managed by the Tradnomic team
+
+## License
+
+- MIT

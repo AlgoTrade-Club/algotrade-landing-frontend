@@ -1,0 +1,23 @@
+version: '3.9'
+services:
+  db:
+    image: mongo:6
+    container_name: algotrade-landing-db
+    restart: always
+    ports:
+      - 10001:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: secret
+      MONGO_INITDB_DATABASE: mydatabase
+    volumes:
+      - mongo-data:/data/db
+  web:
+    build: .
+    ports:
+      - "3002:3002"
+    depends_on:
+      - db
+
+volumes:
+  mongo-data:

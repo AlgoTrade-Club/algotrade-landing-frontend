@@ -20,7 +20,7 @@ export const navbar = {
     { id: 'about', title: 'About', link: PAGE_PATH.aboutPage },
     // { id: 'components', title: 'Components', link: SECTION_PATH },
     landingMegamenu,
-    { id: 'dashboard', title: 'Dashboard', link: ADMIN_PATH, ...linkProps },
+    // { id: 'dashboard', title: 'Dashboard', link: ADMIN_PATH, ...linkProps },
     { id: 'contact', title: 'Contact', link: PAGE_PATH.contactPage }
 
   ]

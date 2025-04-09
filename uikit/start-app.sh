@@ -37,4 +37,4 @@ echo "MongoDB setup complete!"
 # Start the Next.js application
 echo "Starting Next.js application..."
 cd /Users/victorhuang/Documents/Tradnomic/github_project/algotrade/algotrade-landing-frontend/uikit
-npm run dev
+npm run start

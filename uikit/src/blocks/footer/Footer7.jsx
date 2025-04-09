@@ -57,14 +57,14 @@ const data = [
     grid: { size: { xs: 6, sm: 'auto' } },
     title: 'Support',
     menu: [
-      {
-        label: 'Pricing',
-        link: { href: '#' }
-      },
-      {
-        label: 'FAQ',
-        link: { href: '#' }
-      },
+      // {
+      //   label: 'Pricing',
+      //   link: { href: '#' }
+      // },
+      // {
+      //   label: 'FAQ',
+      //   link: { href: '#' }
+      // },
       {
         label: 'Support',
         link: { href: branding.company.socialLink.support, ...linkProps }
@@ -84,22 +84,22 @@ const data = [
         label: 'Freebies',
         link: { href: FREEBIES_URL, ...linkProps }
       },
-      {
-        label: 'Documentation',
-        link: { href: DOCS_URL, ...linkProps }
-      },
-      {
-        label: 'Blog',
-        link: { href: 'https://www.tradnomic.com/blog', ...linkProps }
-      },
+      // {
+      //   label: 'Documentation',
+      //   link: { href: DOCS_URL, ...linkProps }
+      // },
+      // {
+      //   label: 'Blog',
+      //   link: { href: 'https://www.tradnomic.com/blog', ...linkProps }
+      // },
       {
         label: 'Privacy Policy',
         link: { href: '/privacy-policy', ...linkProps }
       },
-      {
-        label: 'Refund Policy',
-        link: { href: 'https://mui.com/store/customer-refund-policy/', ...linkProps }
-      }
+      // {
+      //   label: 'Refund Policy',
+      //   link: { href: 'https://mui.com/store/customer-refund-policy/', ...linkProps }
+      // }
     ]
   }
 ];
@@ -107,11 +107,11 @@ const data = [
 const iconProps = { color: 'text.secondary' };
 
 const usefullLinks = [
-  {
-    icon: <SvgIcon name="tabler-sparkles" {...iconProps} />,
-    title: 'Documentation',
-    href: DOCS_URL
-  }
+  // {
+  //   icon: <SvgIcon name="tabler-sparkles" {...iconProps} />,
+  //   title: 'Documentation',
+  //   href: DOCS_URL
+  // }
 ];
 
 /***************************  FOOTER - 7  ***************************/

@@ -1,4 +1,5 @@
 // @mui
+"use client";
 import Stack from '@mui/material/Stack';
 
 // @project

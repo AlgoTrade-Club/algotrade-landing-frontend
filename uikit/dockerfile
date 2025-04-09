@@ -1,0 +1,17 @@
+# 1. Use minimal Node base image
+FROM node:18-alpine AS base
+
+WORKDIR /app
+
+# 2. Install only runtime deps
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev
+
+# 3. Copy only production build files
+COPY .next .next
+COPY public public
+COPY next.config.mjs .
+
+# 4. Expose and start
+EXPOSE 3002
+CMD ["npm", "run", "start"]

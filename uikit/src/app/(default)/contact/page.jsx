@@ -31,12 +31,12 @@ const contactInfo = [
     content: 'support@tradnomic.com',
     link: 'mailto:support@tradnomic.com'
   },
-  {
-    icon: 'tabler-phone',
-    title: 'Phone',
-    content: '+1 (555) 123-4567',
-    link: 'tel:+15551234567'
-  },
+  // {
+  //   icon: 'tabler-phone',
+  //   title: 'Phone',
+  //   content: '+1 (555) 123-4567',
+  //   link: 'tel:+15551234567'
+  // },
   {
     icon: 'tabler-map-pin',
     title: 'Location',
@@ -56,7 +56,7 @@ export default function ContactPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Handle form submission logic here
+    console.log("Hello world");
   };
 
   return (

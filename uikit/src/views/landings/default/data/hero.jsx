@@ -33,7 +33,7 @@ export const hero = {
   },
   headLine: 'Trade with Ease, Trade with Tradnomic',
   captionLine: "HammerTrade is a powerful platform that combines advanced automation with machine learning to streamline every stage of algorithmic strategy development from building and backtesting to optimizing, deploying, and monitoring all within a seamless solution designed to accelerate performance and scale effortlessly.",
-  primaryBtn: { children: 'Explore The Platform', href: SECTION_PATH },
+  primaryBtn: { children: 'Explore The Platform', href: "/products/hammertrade" },
   videoSrc: 'https://d2elhhoq00m1pj.cloudfront.net/saasable-intro.mp4',
   videoThumbnail: '/assets/videos/thumbnails/intro-thumbnail.png',
   listData: [

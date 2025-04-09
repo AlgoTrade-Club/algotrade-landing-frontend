@@ -77,7 +77,7 @@ export default function ContactUsForm2() {
     watch,
     formState: { errors },
     setValue
-  } = useForm({ defaultValues: { dialcode: '+91' } });
+  } = useForm({ defaultValues: { dialcode: '+1' } });
 
   // Handle form submission
   const onSubmit = (data) => {

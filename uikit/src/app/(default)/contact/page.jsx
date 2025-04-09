@@ -15,6 +15,7 @@ import Typography from '@mui/material/Typography';
 import ContainerWrapper from '@/components/ContainerWrapper';
 import SectionHero from '@/components/SectionHero';
 import SvgIcon from '@/components/SvgIcon';
+import { ContactUsForm1 } from '@/components/contact-us';
 
 // @third-party
 import { motion } from 'framer-motion';
@@ -140,8 +141,6 @@ export default function ContactPage() {
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
                 <Box
-                  component="form"
-                  onSubmit={handleSubmit}
                   sx={{
                     p: { xs: 3, md: 5 },
                     borderRadius: 2,
@@ -151,53 +150,8 @@ export default function ContactPage() {
                   <Typography variant="h4" sx={{ mb: 5 }}>
                     Send us a Message
                   </Typography>
-
-                  <Stack spacing={3}>
-                    <Grid container spacing={0}>
-                      <Grid item xs={12} sm={6}>
-                        <TextField
-                          fullWidth
-                          label="Name"
-                          required
-                          variant="outlined"
-                        />
-                      </Grid>
-                      <Grid item xs={12} sm={6}>
-                        <TextField
-                          fullWidth
-                          label="Email"
-                          required
-                          type="email"
-                          variant="outlined"
-                        />
-                      </Grid>
-                    </Grid>
-
-                    <TextField
-                      fullWidth
-                      label="Subject"
-                      required
-                      variant="outlined"
-                    />
-
-                    <TextField
-                      fullWidth
-                      label="Message"
-                      required
-                      multiline
-                      rows={4}
-                      variant="outlined"
-                    />
-
-                    <Button
-                      type="submit"
-                      variant="contained"
-                      size="large"
-                      startIcon={<SvgIcon name="tabler-send" size={20} color="background.default" />}
-                    >
-                      Send Message
-                    </Button>
-                  </Stack>
+                  
+                  <ContactUsForm1 />
                 </Box>
               </motion.div>
             </Grid>

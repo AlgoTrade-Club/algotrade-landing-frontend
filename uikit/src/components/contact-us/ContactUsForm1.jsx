@@ -5,9 +5,11 @@ import { useState } from 'react';
 
 // @mui
 import { useTheme } from '@mui/material/styles';
+import Alert from '@mui/material/Alert';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
+import CircularProgress from '@mui/material/CircularProgress';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
 import Divider from '@mui/material/Divider';
 import Fade from '@mui/material/Fade';
@@ -18,6 +20,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import Popper from '@mui/material/Popper';
+import Snackbar from '@mui/material/Snackbar';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
@@ -35,6 +38,8 @@ import { emailSchema, firstNameSchema, lastNameSchema, phoneSchema } from '@/uti
 // @types
 
 /***************************  FORM - INPUT LABEL  ***************************/
+
+import axios from 'axios';
 
 function FieldLabel({ name }) {
   return (
@@ -60,6 +65,12 @@ export default function ContactUsForm1() {
   const theme = useTheme();
 
   const [anchorEl, setAnchorEl] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [snackbar, setSnackbar] = useState({
+    open: false,
+    message: '',
+    severity: 'success'
+  });
 
   const handleClick = (event) => {
     setAnchorEl(anchorEl ? null : event.currentTarget);
@@ -77,12 +88,41 @@ export default function ContactUsForm1() {
     watch,
     formState: { errors },
     setValue
-  } = useForm({ defaultValues: { dialcode: '+91' } });
+  } = useForm({ defaultValues: { dialcode: '+1' } });
+  
+  const handleCloseSnackbar = () => {
+    setSnackbar((prev) => ({ ...prev, open: false }));
+  };
 
   // Handle form submission
-  const onSubmit = (data) => {
-    console.log(data);
-    reset();
+  const onSubmit = async (data) => {
+    setLoading(true);
+    try {
+      const response = await axios.post('/api/send-message', data);
+      if (response.status === 200) {
+        setSnackbar({
+          open: true,
+          message: 'Your message has been sent successfully! We will get back to you soon.',
+          severity: 'success'
+        });
+        reset();
+      } else {
+        setSnackbar({
+          open: true,
+          message: 'Failed to send message. Please try again later.',
+          severity: 'error'
+        });
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      setSnackbar({
+        open: true,
+        message: error.response?.data?.error || 'An error occurred while sending the message.',
+        severity: 'error'
+      });
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -244,13 +284,35 @@ export default function ContactUsForm1() {
         <Grid size={12}>
           <Stack sx={{ alignItems: 'flex-start', mt: { xs: 0.5, sm: 1.5 } }}>
             <ButtonAnimationWrapper>
-              <Button type="submit" color="primary" variant="contained" size="large">
-                Send Message
+              <Button 
+                type="submit" 
+                color="primary" 
+                variant="contained" 
+                size="large"
+                disabled={loading}
+                startIcon={loading ? <CircularProgress size={20} color="inherit" /> : null}
+              >
+                {loading ? 'Sending...' : 'Send Message'}
               </Button>
             </ButtonAnimationWrapper>
           </Stack>
         </Grid>
       </Grid>
+      <Snackbar
+        open={snackbar.open}
+        autoHideDuration={6000}
+        onClose={handleCloseSnackbar}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+      >
+        <Alert
+          onClose={handleCloseSnackbar}
+          severity={snackbar.severity}
+          variant="filled"
+          sx={{ width: '100%' }}
+        >
+          {snackbar.message}
+        </Alert>
+      </Snackbar>
     </form>
   );
 }

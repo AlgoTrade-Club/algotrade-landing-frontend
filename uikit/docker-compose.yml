@@ -14,6 +14,7 @@ services:
       - mongo-data:/data/db
   web:
     build: .
+    container_name: algotrade-landing-web
     ports:
       - "3002:3002"
     depends_on:

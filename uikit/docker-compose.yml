@@ -12,6 +12,8 @@ services:
       MONGO_INITDB_DATABASE: mydatabase
     volumes:
       - mongo-data:/data/db
+    networks:
+      - algotrade-landing-network
   web:
     build: .
     container_name: algotrade-landing-web
@@ -19,6 +21,12 @@ services:
       - "3002:3002"
     depends_on:
       - db
+    networks:
+      - algotrade-landing-network
+
+networks:
+  algotrade-landing-network:
+    driver: bridge
 
 volumes:
   mongo-data:

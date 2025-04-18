@@ -59,7 +59,7 @@ const data = {
       title: 'External',
       itemsList: [
         { title: 'Blog', link: { href: 'https://www.tradnomic.com/blog', target: '_blank' } },
-        { title: 'Documentation', link: { href: DOCS_URL, target: '_blank' } },
+        // { title: 'Documentation', link: { href: DOCS_URL, target: '_blank' } },
         { title: 'Support', link: { href: 'https://www.tradnomic.com/support', target: '_blank' } },
         {
           title: 'Discord',

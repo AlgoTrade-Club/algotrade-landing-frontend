@@ -10,6 +10,7 @@ RUN npm ci --omit=dev
 # 3. Copy only production build files
 COPY .next .next
 COPY public public
+COPY .env.docker.local .env.local
 COPY next.config.mjs .
 
 # 4. Expose and start

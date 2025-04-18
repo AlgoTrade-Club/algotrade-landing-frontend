@@ -1,7 +1,7 @@
 // @project
 import branding from '@/branding.json';
 import { IconType } from '@/enum';
-import { SECTION_PATH, BUY_NOW_URL, ADMIN_PATH, DOCS_URL } from '@/path';
+import { BUY_NOW_URL, ADMIN_PATH, DOCS_URL } from '@/path';
 
 const linkProps = { target: '_blank', rel: 'noopener noreferrer' };
 
@@ -164,7 +164,7 @@ export const feature20 = {
   heading: 'Optimization UI Dashboard Tailored to Your Needs',
   caption: 'Ready to accelerate your team\'s development?',
   actionBtn: { children: 'Buy Now', href: BUY_NOW_URL, ...linkProps },
-  secondaryBtn: { children: 'Explore The Platform', href: SECTION_PATH },
+  secondaryBtn: { children: 'Explore The Platform', href: 'products/hammertrade' },
   features: [
     {
       icon: 'tabler-stack-2',
